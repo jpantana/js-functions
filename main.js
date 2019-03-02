@@ -23,3 +23,15 @@ const namePrinter = (firstName, lastName) => {
 
 namePrinter('Josh', 'Pantana');
 namePrinter('Mick', 'Jagger');
+
+const nuggetizer = (animal) => {
+  return `processed ${animal}`;
+};
+
+console.log(nuggetizer('pig'));
+
+
+
+// var fullName = (a, b) => {
+//     for (var i = 0; i <= fullName.length; i++)
+// };
