@@ -23,3 +23,28 @@ const namePrinter = (firstName, lastName) => {
 
 namePrinter('Josh', 'Pantana');
 namePrinter('Mick', 'Jagger');
+
+const nuggetizer = (animal) => {
+  return `processed ${animal}`;
+};
+
+console.log(nuggetizer('pig'));
+console.log(nuggetizer('chicken'));
+console.log(nuggetizer('cow'));
+console.log(nuggetizer('fish'));
+
+
+
+const dogBreed = (x) => {
+  return `My favorite dog breed is a ${x}`;
+};
+
+console.log(dogBreed('Border Collie'));
+console.log(dogBreed('Lab'));
+console.log(dogBreed('Boxer'));
+console.log(dogBreed('Doodle'));
+
+
+// var fullName = (a, b) => {
+//     for (var i = 0; i <= fullName.length; i++)
+// };
