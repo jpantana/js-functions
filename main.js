@@ -40,6 +40,9 @@ const dogBreed = (x) => {
 };
 
 console.log(dogBreed('Border Collie'));
+console.log(dogBreed('Lab'));
+console.log(dogBreed('Boxer'));
+console.log(dogBreed('Doodle'));
 
 
 // var fullName = (a, b) => {
