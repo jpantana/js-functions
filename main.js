@@ -29,7 +29,17 @@ const nuggetizer = (animal) => {
 };
 
 console.log(nuggetizer('pig'));
+console.log(nuggetizer('chicken'));
+console.log(nuggetizer('cow'));
+console.log(nuggetizer('fish'));
 
+
+
+const dogBreed = (x) => {
+  return `My favorite dog breed is a ${x}`;
+};
+
+console.log(dogBreed('Border Collie'));
 
 
 // var fullName = (a, b) => {
